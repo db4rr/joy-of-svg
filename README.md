@@ -1,2 +1,3 @@
-# joy-of-svg
-Materials for a workshop on Scalable Vector Graphics
+# The Joy of SVG
+
+Hi there!
