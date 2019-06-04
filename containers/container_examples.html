@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>SVG in different containers</title>
+
+  </head>
+  
+  <body>
+    <p>👇 <b>&lt;igm&gt;</b>👇
+      <img src="container_example.svg" alt="heart-eyes emoji"/>
+    </p>
+    
+    <p>👇 <b>&lt;object&gt;</b>👇
+      <object type="image/svg+xml" data="container_example.svg">
+        <img src="fallback.png" /> <!-- This is no longer necessary -->
+      </object>
+    </p>
+  
+    <p>👇 inline <b>&lt;svg&gt;</b>👇
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><defs><style>.heart:hover{fill:#65b1ef}</style></defs><a href="https://www.unicode.org/emoji/charts/full-emoji-list.html"><path d="M62 32c0 16.6-13.4 30-30 30S2 48.6 2 32 15.4 2 32 2s30 13.4 30 30z" fill="#ffdd67"/><g fill="#f46767"><title>This is a heart</title><path class="heart" d="M61.8 13.2c-.5-2.7-2-4.9-4.5-5.6-2.7-.7-5.1.3-7.4 2.7-1.3-3.6-3.3-6.3-6.5-7.7-3.2-1.4-6.4-.4-8.4 2.1-2.1 2.6-2.9 6.7-.7 12 2.1 5 11.4 15 11.7 15.3.4-.2 10.8-6.7 13.3-9.9 2.5-3.1 3-6.2 2.5-8.9"/><path class="heart" d="M29 4.7c-2-2.5-5.2-3.5-8.4-2.1s-5.2 4.1-6.5 7.7C11.7 8 9.3 6.9 6.6 7.7c-2.4.7-4 2.9-4.5 5.6-.5 2.6.1 5.8 2.5 8.9 2.6 3.1 13 9.6 13.4 9.8.3-.3 9.6-10.3 11.7-15.3 2.2-5.3 1.4-9.3-.7-12"/></g><path d="M49 38.1c0-.8-.5-1.8-1.8-2.1-3.5-.7-8.6-1.3-15.2-1.3s-11.7.7-15.2 1.3c-1.4.3-1.8 1.3-1.8 2.1 0 7.3 5.6 14.6 17 14.6 11.4-.1 17-7.4 17-14.6" fill="#664e27"/><path d="M44.7 38.3c-2.2-.4-6.8-1-12.7-1-5.9 0-10.5.6-12.7 1-1.3.2-1.4.7-1.3 1.5.1.4.1 1 .3 1.6.1.6.3.9 1.3.8 1.9-.2 23-.2 24.9 0 1 .1 1.1-.2 1.3-.8.1-.6.2-1.1.3-1.6 0-.8-.1-1.3-1.4-1.5" fill="#fff"/></a></svg>
+    </p>
+    
+    <p>👇 <b>&lt;igm&gt;</b> with Base64 data👇
+      <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+CiAgPGRlZnM+CiAgICA8c3R5bGU+CiAgICAgIDwhW0NEQVRBWwogICAgICAuaGVhcnQ6aG92ZXIge2ZpbGw6ICM2NWIxZWY7fQogICAgICBdXT4KICAgIDwvc3R5bGU+CiAgPC9kZWZzPgogIAogIDxhIGhyZWY9Imh0dHBzOi8vd3d3LnVuaWNvZGUub3JnL2Vtb2ppL2NoYXJ0cy9mdWxsLWVtb2ppLWxpc3QuaHRtbCI+CiAgICA8Zz4KICAgICAgPHBhdGggZD0iTTYyLDMyYzAsMTYuNi0xMy40LDMwLTMwLDMwQzE1LjQsNjIsMiw0OC42LDIsMzJDMiwxNS40LDE1LjQsMiwzMiwyQzQ4LjYsMiw2MiwxNS40LDYyLDMyeiIgZmlsbD0iI2ZmZGQ2NyIvPgogICAgICA8ZyBmaWxsPSIjZjQ2NzY3Ij4KICAgICAgICA8dGl0bGU+VGhpcyBpcyBhIGhlYXJ0PC90aXRsZT4KICAgICAgICA8cGF0aCBjbGFzcz0iaGVhcnQiIGQ9Im02MS44IDEzLjJjLS41LTIuNy0yLTQuOS00LjUtNS42LTIuNy0uNy01LjEuMy03LjQgMi43LTEuMy0zLjYtMy4zLTYuMy02LjUtNy43LTMuMi0xLjQtNi40LS40LTguNCAyLjEtMi4xIDIuNi0yLjkgNi43LS43IDEyIDIuMSA1IDExLjQgMTUgMTEuNyAxNS4zLjQtLjIgMTAuOC02LjcgMTMuMy05LjkgMi41LTMuMSAzLTYuMiAyLjUtOC45Ii8+CiAgICAgICAgPHBhdGggY2xhc3M9ImhlYXJ0IiBkPSJtMjkgNC43Yy0yLTIuNS01LjItMy41LTguNC0yLjEtMy4yIDEuNC01LjIgNC4xLTYuNSA3LjctMi40LTIuMy00LjgtMy40LTcuNS0yLjYtMi40LjctNCAyLjktNC41IDUuNi0uNSAyLjYuMSA1LjggMi41IDguOSAyLjYgMy4xIDEzIDkuNiAxMy40IDkuOC4zLS4zIDkuNi0xMC4zIDExLjctMTUuMyAyLjItNS4zIDEuNC05LjMtLjctMTIiLz4KICAgICAgPC9nPgogICAgICA8Zz4KICAgICAgICA8cGF0aCBkPSJtNDkgMzguMWMwLS44LS41LTEuOC0xLjgtMi4xLTMuNS0uNy04LjYtMS4zLTE1LjItMS4zLTYuNiAwLTExLjcuNy0xNS4yIDEuMy0xLjQuMy0xLjggMS4zLTEuOCAyLjEgMCA3LjMgNS42IDE0LjYgMTcgMTQuNiAxMS40LS4xIDE3LTcuNCAxNy0xNC42IiBmaWxsPSIjNjY0ZTI3Ii8+CiAgICAgICAgPHBhdGggZD0ibTQ0LjcgMzguM2MtMi4yLS40LTYuOC0xLTEyLjctMS01LjkgMC0xMC41LjYtMTIuNyAxLTEuMy4yLTEuNC43LTEuMyAxLjUuMS40LjEgMSAuMyAxLjYuMS42LjMuOSAxLjMuOCAxLjktLjIgMjMtLjIgMjQuOSAwIDEgLjEgMS4xLS4yIDEuMy0uOC4xLS42LjItMS4xLjMtMS42IDAtLjgtLjEtMS4zLTEuNC0xLjUiIGZpbGw9IiNmZmYiLz4KICAgICAgPC9nPgogICAgPC9nPgogIDwvYT4KPC9zdmc+Cg==">
+    </p>
+    
+    <p>👇 <b>&lt;object&gt;</b> with Base64 data👇
+      <object type="image/svg+xml" data="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+CiAgPGRlZnM+CiAgICA8c3R5bGU+CiAgICAgIDwhW0NEQVRBWwogICAgICAuaGVhcnQ6aG92ZXIge2ZpbGw6ICM2NWIxZWY7fQogICAgICBdXT4KICAgIDwvc3R5bGU+CiAgPC9kZWZzPgogIAogIDxhIGhyZWY9Imh0dHBzOi8vd3d3LnVuaWNvZGUub3JnL2Vtb2ppL2NoYXJ0cy9mdWxsLWVtb2ppLWxpc3QuaHRtbCI+CiAgICA8Zz4KICAgICAgPHBhdGggZD0iTTYyLDMyYzAsMTYuNi0xMy40LDMwLTMwLDMwQzE1LjQsNjIsMiw0OC42LDIsMzJDMiwxNS40LDE1LjQsMiwzMiwyQzQ4LjYsMiw2MiwxNS40LDYyLDMyeiIgZmlsbD0iI2ZmZGQ2NyIvPgogICAgICA8ZyBmaWxsPSIjZjQ2NzY3Ij4KICAgICAgICA8dGl0bGU+VGhpcyBpcyBhIGhlYXJ0PC90aXRsZT4KICAgICAgICA8cGF0aCBjbGFzcz0iaGVhcnQiIGQ9Im02MS44IDEzLjJjLS41LTIuNy0yLTQuOS00LjUtNS42LTIuNy0uNy01LjEuMy03LjQgMi43LTEuMy0zLjYtMy4zLTYuMy02LjUtNy43LTMuMi0xLjQtNi40LS40LTguNCAyLjEtMi4xIDIuNi0yLjkgNi43LS43IDEyIDIuMSA1IDExLjQgMTUgMTEuNyAxNS4zLjQtLjIgMTAuOC02LjcgMTMuMy05LjkgMi41LTMuMSAzLTYuMiAyLjUtOC45Ii8+CiAgICAgICAgPHBhdGggY2xhc3M9ImhlYXJ0IiBkPSJtMjkgNC43Yy0yLTIuNS01LjItMy41LTguNC0yLjEtMy4yIDEuNC01LjIgNC4xLTYuNSA3LjctMi40LTIuMy00LjgtMy40LTcuNS0yLjYtMi40LjctNCAyLjktNC41IDUuNi0uNSAyLjYuMSA1LjggMi41IDguOSAyLjYgMy4xIDEzIDkuNiAxMy40IDkuOC4zLS4zIDkuNi0xMC4zIDExLjctMTUuMyAyLjItNS4zIDEuNC05LjMtLjctMTIiLz4KICAgICAgPC9nPgogICAgICA8Zz4KICAgICAgICA8cGF0aCBkPSJtNDkgMzguMWMwLS44LS41LTEuOC0xLjgtMi4xLTMuNS0uNy04LjYtMS4zLTE1LjItMS4zLTYuNiAwLTExLjcuNy0xNS4yIDEuMy0xLjQuMy0xLjggMS4zLTEuOCAyLjEgMCA3LjMgNS42IDE0LjYgMTcgMTQuNiAxMS40LS4xIDE3LTcuNCAxNy0xNC42IiBmaWxsPSIjNjY0ZTI3Ii8+CiAgICAgICAgPHBhdGggZD0ibTQ0LjcgMzguM2MtMi4yLS40LTYuOC0xLTEyLjctMS01LjkgMC0xMC41LjYtMTIuNyAxLTEuMy4yLTEuNC43LTEuMyAxLjUuMS40LjEgMSAuMyAxLjYuMS42LjMuOSAxLjMuOCAxLjktLjIgMjMtLjIgMjQuOSAwIDEgLjEgMS4xLS4yIDEuMy0uOC4xLS42LjItMS4xLjMtMS42IDAtLjgtLjEtMS4zLTEuNC0xLjUiIGZpbGw9IiNmZmYiLz4KICAgICAgPC9nPgogICAgPC9nPgogIDwvYT4KPC9zdmc+Cg==">
+      </object>
+    </p>
+    
+  </body>
+  
+  <!-- Want to encode your files in Base64? go to http://jpillora.com/base64-encoder/ 
+  For more optimization: https://jakearchibald.github.io/svgomg/-->
+  
+</html>
