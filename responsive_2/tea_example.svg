@@ -1,0 +1,175 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100" height="500" width="500">
+
+<defs>
+  
+  <style><![CDATA[
+
+    @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+    
+    text {font-family:Montserrat;}
+    
+    #g_medium {display: none;}
+    #g_small {display: none;}
+    
+    .icon {fill: #A23C26}
+    
+    @media screen and (max-width: 600px) {
+      #g_large {display: none;}
+      #g_medium {display: block;}
+      .title1 {fill:#fff}
+      .icon {fill: #000}
+    }
+    
+    @media screen and (max-width: 450px) {
+      #g_medium {display: none;}
+      #g_small {display: block;}
+      .label, .data {fill:#fff}
+      .title1 {fill:#000}
+      .icon {fill: #9A9D85}
+    }
+
+  ]]></style>
+  
+  <symbol id="top_five" class="title2">
+    <text dominant-baseline="hanging" overflow="visible" x="0" y="0">TOP FIVE</text>
+  </symbol>
+  <symbol id="biggest_drinkers" class="title1">
+    <text dominant-baseline="hanging" overflow="visible" x="0" y="0">Biggest tea drinkers</text>
+  </symbol>
+  <symbol id="cups_week" class="title2">
+    <text dominant-baseline="hanging" overflow="visible" x="0" y="0">cups per week / per person</text>
+  </symbol>
+  <symbol id="1_label" class="label">
+    <text dominant-baseline="hanging" overflow="visible" x="0" y="0">Turkey</text>
+  </symbol>
+  <symbol id="2_label" class="label">
+    <text dominant-baseline="hanging" overflow="visible" x="0" y="0">Ireland</text>
+  </symbol>
+  <symbol id="3_label" class="label">
+    <text dominant-baseline="hanging" overflow="visible" x="0" y="0">UK</text>
+  </symbol>
+  <symbol id="4_label" class="label">
+    <text dominant-baseline="hanging" overflow="visible" x="0" y="0">Russia</text>
+  </symbol>
+  <symbol id="5_label" class="label">
+    <text dominant-baseline="hanging" overflow="visible" x="0" y="0">Morocco</text>
+  </symbol>
+  <symbol id="1_data" class="data">
+    <text dominant-baseline="hanging" overflow="visible" x="0" y="0">24</text>
+  </symbol>
+  <symbol id="2_data" class="data">
+    <text dominant-baseline="hanging" overflow="visible" x="0" y="0">16,7</text>
+  </symbol>
+  <symbol id="3_data" class="data">
+    <text dominant-baseline="hanging" overflow="visible" x="0" y="0">14,8</text>
+  </symbol>
+  <symbol id="4_data" class="data">
+    <text dominant-baseline="hanging" overflow="visible" x="0" y="0">10,5</text>
+  </symbol>
+  <symbol id="5_data" class="data">
+    <text dominant-baseline="hanging" overflow="visible" x="0" y="0">9,3</text>
+  </symbol>
+  <symbol id="tea_leaves" class="icon">
+    <path d="M37.554 38.833l.02.035zM102 91.952l-1.069-1.062-1.196-.916-1.276-.798-1.368-.627-1.528-.529-1.515-.564-1.518-.56-1.509-.584-1.507-.582-1.605-.537-1.612-.514-1.588-.59-1.572-.632-1.53-.729-1.493-.802-1.365-1.006-.893-1.41-.696-1.243-.743-1.217-.675-1.254-.66-1.264-.559-1.706-1.065-1.377.932-1.163.763-1.298.51-1.417.362-1.46.216-1.488.064-1.505.08-1.569-.033-1.57-.023-1.57-.073-1.57-.074-1.568-.073-1.57-.13-1.565-.173-1.562-.21-1.558-.244-1.553-.158-1.638-.129-1.642-.129-1.64-.138-1.641-.128-1.641-.093-1.645-.124-1.643-.09-1.645-.036-1.647.066-1.646.264-1.595.154-1.593.137-1.6.178-1.595.156-1.597.12-1.6.2-1.595.172-1.597.202-1.593.193-1.594.256-1.584.38-1.55.311-1.657.368-1.648.363-1.65.336-1.657.544-1.585L79.034 2l-.324.282-1.34 1.36-1.088 1.553-.736 1.505-.735 1.506-.765 1.493-.73 1.478-.825 1.4-.799 1.395-.822 1.382-.876 1.349-.89 1.34-.911 1.327-.998 1.26-.73 1.346-.667 1.38-.674 1.376-.62 1.403-.639 1.395-.551 1.433-.494 1.452-.446 1.465-.45 1.555L61.52 35l-.346 1.582-.324 1.585-.252 1.599-.241 1.599-.196 1.606-.179 1.608-.162 1.612-.055 1.618-.103 1.616.018 1.62-.01 1.618.051 1.618.043 1.62.14 1.614.128 1.596-1.202-1.118-1.238-1.105-1.212-1.131-1.214-1.133-1.224-1.12-1.23-1.117-1.218-1.126-1.209-1.137-1.22-1.12-1.272-.965-1.262-.979-1.234-1.015-1.26-.981-1.227-1.025-1.212-1.042-1.176-1.082-1.025-1.224-.93-.895-.9-.928.488 1.624.9 1.298.908 1.293.966 1.252.994 1.23 1.042 1.19 1.18 1.157 1.156 1.18 1.137 1.198 1.151 1.186 1.165 1.172 1.144 1.194 1.137 1.2 1.155 1.183 1.144 1.192 1.11 1.223 1.032 1.163 1.028 1.168 1.033 1.161 1.005 1.188 1.042 1.156 1.006 1.188.972 1.216 1.019 1.177.954 1.23.909 1.262 1.025 1.233.749 1.423 1.196.995 1.207.97 1.297.76 1.237.854 1.098 1.022.786 1.261.76 1.457-1.202.537-1.607.053-1.609.031-1.609.047-1.606.1-1.605.108-1.602.146-1.604.115-1.598.19-1.602.156-1.6.165-1.592.24-1.6.18-1.588.261-1.594.224-1.586.278-1.585.28-1.58.306-1.58.3-1.575.336-1.576.327-1.567.367-1.562.392-1.548.444-1.558.407-1.537.479-1.546.452-1.52.529-1.526.514-1.515.547-1.496.595-1.493.603-1.488.595-1.468.644-1.43.723-1.439.705-1.418.745-1.41.761-1.367.84-1.36.847-1.335.888-1.288.955-1.261.989-1.231 1.027-1.153 1.115L5 102.25l-.994 1.265.894-1.31 1.01-1.216 1.081-1.154 1.144-1.093L9.326 97.7l1.267-.949 1.264-.952 1.318-.875 1.334-.852 1.367-.797 1.37-.794 1.413-.715 1.41-.72 1.437-.665 1.454-.626 1.464-.601 1.483-.553 1.474-.577 1.5-.51 1.503-.494 1.51-.475 1.515-.46 1.514-.468 1.525-.425 1.536-.387 1.545-.348 1.54-.374 1.55-.325 1.55-.322 1.556-.3 1.558-.293 1.533-.25 1.533-.247 1.533-.257 1.533-.254 1.537-.227 1.538-.218 1.542-.183 1.545-.175 1.543-.184 1.545-.176 1.547-.152 1.551-.095 1.55-.136 1.554-.041 1.562.053-1.317-.607-1.289-.642-1.212-.778-1.208-.783-1.146-.873-1.312-.808-1.357-.724-1.362-.714-1.406-.626-1.403-.633-1.45-.52-1.48-.434-1.506-.32-1.53-.177-1.58-.198-1.592-.042-1.592.063-1.587.118-1.581.178-1.57.26-1.571.26-1.546.382-1.55.366-1.523.463-1.52.476-1.484.575-1.487.565-1.474.601-1.45.657-1.432.698-1.424.715-1.394.77-1.363.824-1.362.825-1.352.842-1.32.89-1.316.897-1.299.924-1.271.96-1.235 1.008-1.229 1.014-1.216 1.03-1.215 1.031-.971 1.226-.957 1.236-.885 1.29-.833 1.322-.83 1.325-.766 1.364-.639 1.429-.65 1.423-.528 1.472-.396 1.513-.319 1.531L2 105.502l.029 1.565.298 1.536.504 1.484.672-1.444 1.002-1.239 1.206-1.038 1.293-.926 1.395-.77 1.464-.631 1.51-.508 1.528-.449 1.506-.57 1.53-.504 1.558-.411 1.57-.357 1.573-.356 1.59-.265 1.582-.308 1.6-.198 1.59-.26 1.602-.177 1.604-.156 1.601-.175 1.61-.099 1.605-.136 1.607-.113 1.61-.08 1.61-.087 1.61-.065 1.613-.008 1.612-.03 1.612-.053 1.614.023 1.551-.163 1.54-.231 1.545-.197 1.522-.33 1.522-.324 1.514-.364 1.502-.415 1.49-.46 1.45-.57 1.458-.55 1.415-.652 1.402-.681 1.347-.785 1.303-.855 1.255-.923 1.202-.992 1.107-1.096 1.006-1.186.635-1.135 1.148-.515 1.585.267 1.58.298 1.576.32 1.577.316 1.559.395 1.564.379 1.554.417 1.528.503 1.524.515 1.512.55 1.503.576 1.446.705 1.437.719 1.15.582.96.857 1.296.534 1.386.246 1.346-.373.883-.964zm-32.788-23l-.071-1.562-.115-1.56-.087-1.562-.058-1.562-.088-1.562-.047-1.564-.048-1.565-.02-1.564-.047-1.565.041-1.565.002-1.565.087-1.561.119-1.56.147-1.557.114-1.56.138-1.559.164-1.556.158-1.557.1-1.563.17-1.556.136-1.559.204-1.552.167-1.551-.02 1.56-.088 1.558-.023 1.56-.048 1.56-.056 1.56-.04 1.56-.094 1.559-.017 1.56-.054 1.56-.032 1.562-.057 1.56-.086 1.559-.06 1.56-.046 1.56-.045 1.56-.049 1.561-.044 1.56-.068 1.56-.059 1.56-.041 1.561-.042 1.562-.066 1.562z"/>
+  </symbol>
+  <symbol id="teapot" class="icon">
+    <path d="M18.76 1.48a.988.992 0 0 0-.96.99v2.975a1.975 1.983 0 0 1-1.974 1.985h-1.974a3.95 3.966 0 0 0 0 7.931h1.974a1.975 1.983 0 0 1 1.975 1.985v1.982a.988.992 0 0 0 1.976 0v-1.982a3.95 3.966 0 0 0-3.95-3.967h-1.975a1.975 1.983 0 0 1 0-3.967h1.974a3.95 3.966 0 0 0 3.951-3.967V2.471a.988.992 0 0 0-1.017-.99zm-7.9 16.856a.988.992 0 0 0-.96.992v.992a.988.992 0 0 0 .989.99.988.992 0 0 0 .988-.99v-.992a.988.992 0 0 0-1.018-.992zm7.9 3.967a.988.992 0 0 0-.96.992v1.982a.988.992 0 0 0 1.977 0v-1.982a.988.992 0 0 0-1.017-.992zm-7.9.992a.988.992 0 0 0-.96.99v2.975a1.975 1.983 0 0 1-1.974 1.984H5.95a3.95 3.966 0 0 0 0 7.932h1.975A1.975 1.983 0 0 1 9.9 39.16v.992a.988.992 0 0 0 1.977 0v-.992a3.95 3.966 0 0 0-3.951-3.967H5.95a1.975 1.983 0 0 1 0-3.966h1.975a3.95 3.966 0 0 0 3.951-3.967v-2.975a.988.992 0 0 0-1.018-.99zm29.656 0a.988.992 0 0 0-.987.99.988.992 0 0 0 .987.992.988.992 0 0 0 .988-.992.988.992 0 0 0-.988-.99zM38.54 27.26a2.969 2.98 0 0 0-2.793 1.984h9.537a2.969 2.98 0 0 0-2.793-1.984h-3.951zm-20.074 2.976l5.306 9.895a4.938 4.958 0 0 0 1.952 1.982l5.744 3.205a.988.992 0 0 1 .394.397l2.332 4.351h12.643l3.498-6.521a7.853 7.885 0 0 0-1.371-9.371l-1.115-1.12a.962.966 0 0 1-.37-.37l-1.447-1.457H35l-2.936 2.947a7.851 7.883 0 0 0-1.636 2.408.988.992 0 0 1-.903.594h-2.298a3.96 3.975 0 0 1-3.215-1.66l-3.756-5.28h-1.79zm35.158.993a5.45 5.472 0 0 0-2.244.578l-1.32.662.302.304a9.802 9.842 0 0 1 1.739 2.336 2.545 2.496 0 0 1 1.837-.773 2.545 2.496 0 0 1 2.545 2.496 2.545 2.496 0 0 1-2.545 2.496 2.545 2.496 0 0 1-.699-.098 9.802 9.842 0 0 1-.435 3.504 5.45 5.473 0 0 0 5.734-3.191l.272-.61a5.482 5.504 0 0 0-.844-5.79 5.45 5.472 0 0 0-4.342-1.914zm-9.201 1.982a.988.992 0 0 1 .834.396l1.226 1.643a9.718 9.757 0 0 1 1.934 5.82 9.601 9.64 0 0 1-.074 1.19.988.992 0 0 1-.977.87.873.877 0 0 1-.125-.007.988.992 0 0 1-.857-1.105 7.69 7.722 0 0 0-1.48-5.573l-1.227-1.648a.988.992 0 0 1 .197-1.389.988.992 0 0 1 .549-.197zM17.77 37.178a.988.992 0 0 0-.957.99v1.984a.988.992 0 0 0 1.975 0v-1.984a.988.992 0 0 0-1.018-.99zm28.668 6.94a.988.992 0 0 1 .891 1.435l-.492.992a.989.993 0 1 1-1.77-.887l.495-.992a.988.992 0 0 1 .876-.549zm-37.525.991v1.983a2.95 2.962 0 0 0 4.623 2.453 4.882 4.901 0 0 1-.674-2.453v-1.983H8.914zm5.924 0v1.983a2.963 2.975 0 0 0 5.926 0v-1.983h-5.926zm-5.924 6.942a.988.992 0 0 0-.988.992V58h4.049a4.946 4.966 0 0 1 4.84-3.967H46.44A4.946 4.966 0 0 1 51.281 58h4.05v-4.957a.988.992 0 0 0-.987-.992H8.914z"/>
+  </symbol>
+  <symbol id="teacup" class="icon">
+    <path d="M77.831 9.774c-2.385-2.789-5.958-4.325-10.114-4.325h-.384c.01-.434.037-.862.037-1.299V2H2v2.15c0 15.919 7.338 29.725 19.149 36.027.491.263.998.506 1.508.746l.433.202h23.181l.711-.332c.244-.113.49-.227.729-.35 3.575-1.826 6.738-4.336 9.439-7.363 1.097.042 2.888.062 5.341.062 9.169 0 16.718-5.683 17.952-13.513.583-3.702-.344-7.203-2.612-9.855zm-54.756 4.388l3.509 1.404v8.151h-7.166v-8.139zm22.68 22.451c-.145.072-.29.143-.438.211H24.052a23.935 23.935 0 0 1-.877-.441C11.515 30.162 6.89 17.154 6.355 6.3h15.146v5.254l-5.083 1.968v13.195h13.166V13.534l-5.083-2.033V6.3h38.516c-.541 11.034-5.286 24.197-17.262 30.313zm30.439-17.652c-.901 5.727-6.666 9.882-13.703 9.882-.807 0-1.484-.003-2.088-.006 3.543-5.397 5.855-11.93 6.65-19.086l.713-.001c2.827 0 5.24 1 6.795 2.818 1.438 1.682 2.018 3.953 1.633 6.393z"/>
+  </symbol>
+</defs>
+  
+  <g id="g_small">
+    <use xlink:href="#top_five" font-size="5" x="2" y="2"/>
+    <rect width="93" height="11" style="fill:#9A9D85" x="1" y="7"/>
+    <use xlink:href="#biggest_drinkers" font-size="9" x="2" y="8"/>
+    <use xlink:href="#cups_week" font-size="5" x="2" y="19"/>
+    <rect width="90" height="11" style="fill:#A23C26" x="2" y="26"/>
+    <use xlink:href="#1_label" font-size="8" x="4" y="28"/>
+    <use xlink:href="#1_data" font-size="8" x="80" y="28"/>
+    <rect width="72" height="11" style="fill:#A23C26" x="2" y="39"/>
+    <use xlink:href="#2_label" font-size="8" x="4" y="41"/>
+    <use xlink:href="#2_data" font-size="8" x="56" y="41"/>
+    <rect width="67" height="11" style="fill:#A23C26" x="2" y="52"/>
+    <use xlink:href="#3_label" font-size="8" x="4" y="54"/>
+    <use xlink:href="#3_data" font-size="8" x="51" y="54"/>
+    <rect width="60" height="11" style="fill:#A23C26" x="2" y="65"/>
+    <use xlink:href="#4_label" font-size="8" x="4" y="67"/>
+    <use xlink:href="#4_data" font-size="8" x="44" y="67"/>
+    <rect width="57" height="11" style="fill:#A23C26" x="2" y="78"/>
+    <use xlink:href="#5_label" font-size="8" x="4" y="80"/>
+    <use xlink:href="#5_data" font-size="8" x="45" y="80"/>
+    <use xlink:href="#tea_leaves" height="200" transform="scale(0.25,0.30)" x="260" y="170"/>
+  </g>
+  
+  <g id="g_medium">
+    <use xlink:href="#top_five" font-size="5" x="37" y="2"/>
+    <rect width="93" height="11" style="fill:#A23C26" x="1" y="7"/>
+    <use xlink:href="#biggest_drinkers" font-size="9" x="2" y="8"/>
+    <use xlink:href="#cups_week" font-size="5" x="13" y="19"/>
+    <rect width="52" height="51" style="fill:#9A9D85" x="42" y="26"/>
+    <use xlink:href="#1_label" font-size="7" x="44" y="28"/>
+    <use xlink:href="#1_data" font-size="7" x="78" y="28"/>
+    <use xlink:href="#2_label" font-size="7" x="44" y="38"/>
+    <use xlink:href="#2_data" font-size="7" x="78" y="38"/>
+    <use xlink:href="#3_label" font-size="7" x="44" y="48"/>
+    <use xlink:href="#3_data" font-size="7" x="78" y="48"/>
+    <use xlink:href="#4_label" font-size="7" x="44" y="58"/>
+    <use xlink:href="#4_data" font-size="7" x="78" y="58"/>
+    <use xlink:href="#5_label" font-size="7" x="44" y="68"/>
+    <use xlink:href="#5_data" font-size="7" x="78" y="68"/>
+    <use xlink:href="#teapot" height="200" transform="scale(0.6,0.6)" x="0" y="45"/>
+    <a href="https://www.telegraph.co.uk/travel/maps-and-graphics/countries-that-drink-the-most-coffee/">
+      <text dominant-baseline="hanging" font-size="4" overflow="visible" style="fill:#9A9D85" x="10" y="70">[ source ]</text>
+    </a>
+  </g>
+  
+  <g id="g_large">
+    <use xlink:href="#top_five" font-size="5" x="37" y="2"/>
+    <rect width="93" height="11" style="fill:#9A9D85" x="1" y="7"/>
+    <use xlink:href="#biggest_drinkers" font-size="9" x="2" y="8"/>
+    <use xlink:href="#cups_week" font-size="5" x="13" y="19"/>
+    <g id="1_cups">
+      <use xlink:href="#teacup" transform="scale(0.2,0.2)" x="10" y="135"/>
+      <use xlink:href="#teacup" transform="scale(0.2,0.2)" x="10" y="170"/>
+      <use xlink:href="#teacup" transform="scale(0.2,0.2)" x="10" y="205"/>
+      <use xlink:href="#teacup" transform="scale(0.2,0.2)" x="10" y="240"/>
+      <use xlink:href="#teacup" transform="scale(0.2,0.2)" x="10" y="275"/>
+      <use xlink:href="#teacup" transform="scale(0.2,0.2)" x="10" y="310"/>
+      <use xlink:href="#1_data" font-size="7" x="5" y="72"/>
+      <use xlink:href="#1_label" font-size="4" x="2.5" y="80"/>
+    </g>
+    <g id="2_cups" transform="translate(19)">
+      <use xlink:href="#teacup" transform="scale(0.2,0.2)" x="10" y="205"/>
+      <use xlink:href="#teacup" transform="scale(0.2,0.2)" x="10" y="240"/>
+      <use xlink:href="#teacup" transform="scale(0.2,0.2)" x="10" y="275"/>
+      <use xlink:href="#teacup" transform="scale(0.2,0.2)" x="10" y="310"/>
+      <use xlink:href="#2_data" font-size="7" x="3" y="72"/>
+      <use xlink:href="#2_label" font-size="4" x="2.5" y="80"/>
+    </g>
+    <g id="3_cups" transform="translate(38)">
+      <use xlink:href="#teacup" transform="scale(0.2,0.2)" x="10" y="240"/>
+      <use xlink:href="#teacup" transform="scale(0.2,0.2)" x="10" y="275"/>
+      <use xlink:href="#teacup" transform="scale(0.2,0.2)" x="10" y="310"/>
+      <use xlink:href="#3_data" font-size="7" x="3" y="72"/>
+      <use xlink:href="#3_label" font-size="4" x="6.5" y="80"/>
+    </g>
+    <g id="4_cups" transform="translate(57)">
+      <use xlink:href="#teacup" transform="scale(0.2,0.2)" x="10" y="275"/>
+      <use xlink:href="#teacup" transform="scale(0.2,0.2)" x="10" y="310"/>
+      <use xlink:href="#4_data" font-size="7" x="3" y="72"/>
+      <use xlink:href="#4_label" font-size="4" x="3.5" y="80"/>
+    </g>
+    <g id="5_cups" transform="translate(76)">
+      <use xlink:href="#teacup" transform="scale(0.2,0.2)" x="10" y="275"/>
+      <use xlink:href="#teacup" transform="scale(0.2,0.2)" x="10" y="310"/>
+      <use xlink:href="#5_data" font-size="7" x="4" y="72"/>
+      <use xlink:href="#5_label" font-size="4" x="1" y="80"/>
+    </g>
+    <a href="https://www.telegraph.co.uk/travel/maps-and-graphics/countries-that-drink-the-most-coffee/">
+      <text dominant-baseline="hanging" font-size="4" overflow="visible" style="fill:#9A9D85" x="35" y="90">[ data source ]</text>
+    </a>
+  </g>
+
+</svg>
