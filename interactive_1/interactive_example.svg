@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 250 200" height="500">
+  
+  <defs>
+
+    <style type="text/css">
+
+      @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+      
+      text {
+        font-family:Montserrat;
+        font-size: 0.4rem;
+        text-anchor: middle;
+      }
+      
+      .diagram_block {
+        fill:#fff;
+        stroke:#000;
+        stroke-linecap:butt;
+        stroke-width:1;
+        overflow: visible;
+        }
+        
+      .arrow {
+        fill: none;
+        stroke:#000;
+        stroke-linecap:butt;
+        stroke-width:1;
+        overflow: visible;
+      }
+      
+      .yes_arrow {
+        stroke:green;
+        stroke-dasharray: 2;
+      }
+      
+      .no_arrow {
+        stroke:red;
+        stroke-dasharray: 2;
+      }
+      
+      .button_off {
+        fill:#fff;
+        stroke:#000;
+        stroke-linecap:butt;
+        stroke-width:1;
+        overflow: visible;
+      }
+      
+      .button_on {
+        fill:blue;
+        stroke:#000;
+        stroke-linecap:butt;
+        stroke-width:1;
+        overflow: visible;
+      }
+
+    </style>
+    
+    <symbol id="start" class="diagram_block">
+      <circle r="5"/>
+    </symbol>
+    
+    <symbol id="box" class="diagram_block">
+      <rect width="40" height="20" rx="5" ry="5"/>
+    </symbol>
+    
+    <symbol id="gate" class="diagram_block">
+      <polygon points="-10 10, 0 0, 10 10, 0 20"/>
+    </symbol>
+  
+  </defs>
+  
+  <g id="arrows" class="arrow">
+    <path d="M51 10 L 51 40"/>
+    <path class="yes_arrow" d="M51 36 L 20 36 L 20 125"/>
+    <path class="no_arrow" d="M51 36 L 133 36 L 133 52"/>
+    <path class="yes_arrow" d="M133 61 L 67 61 L 67 125"/>
+    <path class="yes_arrow" d="M133 61 L 110 61 L 110 125"/>
+    <path class="no_arrow" d="M133 61 L 178 61 L 178 76"/>
+    <path class="yes_arrow" d="M178 86 L 155 86 L 155 125"/>
+    <path class="no_arrow" d="M178 86 L 202 86 L 202 125"/>
+  </g>
+  
+  <g id="block_0" transform="translate(50 5)">
+    <use xlink:href="#start" x="1" y="10"/>
+    <text x="1" y="1">Which citrus?</text>
+  </g>
+  
+  <g id="block_1" transform="translate(50 25)">
+    <use xlink:href="#gate" x="1" y="1"/>
+    <text x="1" y="27">Has sweet peel?</text>
+  </g>
+  
+  <g id="block_1" transform="translate(132 50)">
+    <use xlink:href="#gate" x="1" y="1"/>
+    <text x="1" y="27">Has sweet flesh?</text>
+  </g>
+  
+  <g id="block_1" transform="translate(177 75)">
+    <use xlink:href="#gate" x="1" y="1"/>
+    <text x="1" y="27">Has sour flesh?</text>
+  </g>
+  
+  <g id="block_1" transform="translate(0 120)">
+    <use xlink:href="#box" x="1" y="1"/>
+    <text class="non_hybrid" x="21" y="13">Kumquat</text>
+  </g>
+
+  <g id="block_1" transform="translate(45 120)">
+    <use xlink:href="#box" x="1" y="1"/>
+    <text x="21" y="13">Orange</text>
+  </g>
+
+  <g id="block_1" transform="translate(90 120)">
+    <use xlink:href="#box" x="1" y="1"/>
+    <text class="non_hybrid" x="21" y="13">Mandarin</text>
+  </g>
+
+  <g id="block_1" transform="translate(135 120)">
+    <use xlink:href="#box" x="1" y="1"/>
+    <text x="21" y="13">Lemon</text>
+  </g>
+
+  <g id="block_1" transform="translate(180 120)">
+    <use xlink:href="#box" x="1" y="1"/>
+    <text class="non_hybrid" x="21" y="13">Pomelo</text>
+  </g>
+
+  <g transform="translate(20 150)">
+    <g id="btn_1_on">
+      <rect class="button_on" height="10" width="10"/>
+    </g>
+    <g id="btn_1_off">
+      <rect class="button_off" height="10" width="10"/>
+    </g>
+    <text x="50" y="7">Highlight non-hybrids</text>
+  </g>
+    
+  <script type="text/javascript">
+		$('#btn_1_off').click(function() {
+				$('#btn_1_off').css('visibility','hidden');
+				$('.non_hybrid').css('fill','blue');
+				$('.non_hybrid').css('font-size','0.5rem');
+		});
+		$('#btn_1_on').click(function() {
+				$('#btn_1_off').css('visibility','visible');
+				$('.non_hybrid').css('fill','#000');
+				$('.non_hybrid').css('font-size','0.4rem');
+		});
+  </script>
+</svg>
