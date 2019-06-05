@@ -1,0 +1,31 @@
+.site {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.theimage {
+    width: 50%;
+	fill: none;
+}
+
+#custom-shape {
+	outline: 1px solid grey;
+	background: url('raster.svg');
+}
+
+.stroke {
+	stroke-width: 1;
+	stroke: #000;
+}
+
+.fill {
+	fill: hsla(0, 0%, 50%, .5);
+}
+
+.text {
+	fill: #fff;
+	font-size: 50%;
+	text-align: center;
+}

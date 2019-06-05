@@ -1,0 +1,27 @@
+.site {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.theimage {
+    width: 50%;
+}
+
+.icon {
+	fill:none;
+	stroke-width:35;
+	stroke-miterlimit:10;
+}
+
+.border {
+	fill:none;
+	stroke:#3C3CCE;
+	stroke-width:35;
+	stroke-miterlimit:10;
+}
+
+.original-icon {
+	stroke: #000;
+}
