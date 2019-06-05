@@ -9,6 +9,7 @@ Hi there! This repository includes materials for a workshop on Scalable Vector G
   - Can be controlled with CSS and JavaScript
 
 ## Resources
+- [Inkscape](https://inkscape.org)
 - [SVGoptimizer](https://jakearchibald.github.io/svgomg/)
 - [How to use SVGs](https://css-tricks.com/using-svg/)
 - [How to scale SVGs](https://css-tricks.com/scale-svg/)
